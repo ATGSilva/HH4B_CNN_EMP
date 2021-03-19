@@ -1,0 +1,5 @@
+src emp_payload.vhd
+include -c emp-fwk:boards/serenity/dc_ku15p dc_ku15p_sm1_v2.dep
+src dc_ku15p_decl.vhd
+setup includeIP.tcl
+setup build.tcl
